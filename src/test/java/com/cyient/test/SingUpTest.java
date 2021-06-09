@@ -19,14 +19,14 @@ public class SingUpTest extends BrowserBase {
 		driver.findElement(By.xpath("//span[text()=' June ']")).click();
 		driver.findElement(By.xpath("//span[text()='Day']")).click();
 		driver.findElement(By.xpath("//span[text()=' 7 ']")).click();
-		driver.findElement(By.xpath("//input[@data-placeholder='Year']")).sendKeys("1997");
+		driver.findElement(By.xpath("//input[@data-placeholder='Year']")).sendKeys("1995");
 
 		driver.findElement(By.xpath("//span[text()='Country/Region of residence']")).click();
 		driver.findElement(By.xpath("//span[text()=' India ']")).click();
 		Thread.sleep(1000);
 
-		driver.findElement(By.xpath("//input[@data-placeholder='Email address']")).sendKeys("rutuk72@gmail.com");
-		driver.findElement(By.xpath("//input[@data-placeholder='Create new password']")).sendKeys("Feb27@rak");
+		driver.findElement(By.xpath("//input[@data-placeholder='Email address']")).sendKeys("RD@gmail.com");
+		driver.findElement(By.xpath("//input[@data-placeholder='Create new password']")).sendKeys("SK@07");
 
 		driver.findElement(By.xpath("(//span[text()='Select one security question'])[1]")).click();
 		Thread.sleep(1000);
