@@ -19,7 +19,7 @@ public class SingUpTest extends BrowserBase {
 		driver.findElement(By.xpath("//span[text()=' June ']")).click();
 		driver.findElement(By.xpath("//span[text()='Day']")).click();
 		driver.findElement(By.xpath("//span[text()=' 7 ']")).click();
-		driver.findElement(By.xpath("//input[@data-placeholder='Year']")).sendKeys("1995");
+		driver.findElement(By.xpath("//input[@data-placeholder='Year']")).sendKeys("2001");
 
 		driver.findElement(By.xpath("//span[text()='Country/Region of residence']")).click();
 		driver.findElement(By.xpath("//span[text()=' India ']")).click();
